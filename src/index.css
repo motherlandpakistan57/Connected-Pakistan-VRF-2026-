@@ -1,0 +1,364 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sora: 'Sora', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-urdu: 'Noto Nastaliq Urdu', serif;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F8FAFC;
+    color: #0F172A;
+  }
+
+  .font-sora {
+    font-family: 'Sora', sans-serif;
+  }
+
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', serif;
+    line-height: 1.9;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* ==========================================================================
+   PAKISTAN PREMIUM BRANDING GLOBAL UTILITY SYSTEM (VRF 2026 SOVEREIGN)
+   ========================================================================== */
+@layer components {
+  /* Premium Cards */
+  .card-premium {
+    background-color: #FCFAF3;
+    border: 1px solid rgba(23, 138, 82, 0.22);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px -2px rgba(4, 35, 26, 0.06), 0 2px 6px -1px rgba(4, 35, 26, 0.04);
+    color: #132A21;
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .card-premium:hover {
+    border-color: rgba(227, 168, 43, 0.45);
+    box-shadow: 0 10px 25px -4px rgba(4, 35, 26, 0.1), 0 4px 10px -2px rgba(4, 35, 26, 0.06);
+  }
+
+  .card-premium-dark {
+    background: linear-gradient(135deg, #04231A 0%, #0B4A31 100%);
+    border: 1.5px solid #178A52;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px -5px rgba(4, 35, 26, 0.35);
+    color: #FFFFFF;
+  }
+
+  .card-premium-gold {
+    background: linear-gradient(135deg, #FCFAF3 0%, #F6F2E7 100%);
+    border: 2px solid #E3A82B;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 24px -4px rgba(227, 168, 43, 0.18);
+  }
+
+  /* Premium Buttons */
+  .btn-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #178A52;
+    color: #FFFFFF;
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    padding: 0.65rem 1.35rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 14px rgba(23, 138, 82, 0.3);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-action:hover {
+    background-color: #0B4A31;
+    box-shadow: 0 6px 20px rgba(11, 74, 49, 0.4);
+    transform: translateY(-1px);
+  }
+
+  .btn-action:active {
+    transform: scale(0.97);
+  }
+
+  .btn-action-gold {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #E3A82B;
+    color: #04231A;
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    padding: 0.65rem 1.35rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 14px rgba(227, 168, 43, 0.35);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-action-gold:hover {
+    background-color: #D3951F;
+    box-shadow: 0 6px 20px rgba(227, 168, 43, 0.45);
+    transform: translateY(-1px);
+  }
+
+  .btn-action-gold:active {
+    transform: scale(0.97);
+  }
+
+  .btn-action-dark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #04231A;
+    color: #FFFFFF;
+    border: 1px solid #178A52;
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    padding: 0.65rem 1.35rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 14px rgba(4, 35, 26, 0.25);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-action-dark:hover {
+    background-color: #0B4A31;
+    border-color: #E3A82B;
+    color: #E3A82B;
+  }
+
+  .btn-action-dark:active {
+    transform: scale(0.97);
+  }
+
+  /* Premium Badges */
+  .badge-verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rgba(23, 138, 82, 0.15);
+    color: #178A52;
+    border: 1px solid rgba(23, 138, 82, 0.3);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.2rem 0.65rem;
+    border-radius: 9999px;
+  }
+
+  .badge-gold {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rgba(227, 168, 43, 0.18);
+    color: #9C6F12;
+    border: 1px solid rgba(227, 168, 43, 0.4);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.2rem 0.65rem;
+    border-radius: 9999px;
+  }
+
+  .badge-alert {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: rgba(176, 58, 46, 0.15);
+    color: #B03A2E;
+    border: 1px solid rgba(176, 58, 46, 0.3);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.2rem 0.65rem;
+    border-radius: 9999px;
+  }
+
+  /* Premium Inputs */
+  .input-clean {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1.5px solid rgba(23, 138, 82, 0.35);
+    border-radius: 0.85rem;
+    padding: 0.6rem 0.9rem;
+    font-size: 0.875rem;
+    color: #04231A;
+    transition: all 0.2s ease;
+  }
+
+  .input-clean:focus {
+    outline: none;
+    border-color: #178A52;
+    box-shadow: 0 0 0 3px rgba(23, 138, 82, 0.2);
+  }
+
+  /* Premium Typography */
+  .text-heading {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    color: #04231A;
+    letter-spacing: -0.02em;
+  }
+
+  .text-heading-dark {
+    font-family: 'Sora', sans-serif;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+  }
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.03); }
+}
+
+@keyframes breatheCrescent {
+  0%, 100% { transform: rotate(-18deg) scale(1); filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.3)); }
+  50% { transform: rotate(-18deg) scale(1.08); filter: drop-shadow(0 0 14px rgba(16, 185, 129, 0.6)); }
+}
+
+@keyframes tickerMove {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-breathe-crescent {
+  animation: breatheCrescent 4s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 3s ease-in-out infinite;
+}
+
+@keyframes cinematicFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-title-fade {
+  animation: cinematicFadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-vision-fade {
+  animation: cinematicFadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.ticker-track {
+  display: flex;
+  width: max-content;
+  animation: tickerMove 40s linear infinite;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #059669;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
+
+/* Leaflet Clean styling */
+.leaflet-container {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC !important;
+}
+
+/* Lightweight CSS Idle Breathing Animation - Zero-Latency Performance */
+@keyframes cardIdleBreathing {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    border-color: rgba(226, 232, 240, 0.85);
+  }
+  50% {
+    transform: translateY(-2px) scale(1.008);
+    box-shadow: 0 12px 28px -8px rgba(16, 185, 129, 0.22), 0 0 0 1px rgba(34, 197, 94, 0.35);
+    border-color: rgba(34, 197, 94, 0.55);
+  }
+}
+
+@keyframes clockIdleBreathing {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+    border-color: rgba(16, 185, 129, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 20px 2px rgba(16, 185, 129, 0.35), 0 0 32px 4px rgba(227, 168, 43, 0.22);
+    border-color: rgba(227, 168, 43, 0.85);
+  }
+}
+
+/* Activated ONLY when data-user-idle="true" on root/body, zero latency when user moves */
+.idle-card-breathing {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.6s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.6s ease;
+}
+
+[data-user-idle="true"] .idle-card-breathing {
+  animation: cardIdleBreathing 4.2s ease-in-out infinite;
+  will-change: transform, box-shadow;
+}
+
+.idle-clock-breathing {
+  transition: box-shadow 0.5s ease, border-color 0.5s ease;
+}
+
+[data-user-idle="true"] .idle-clock-breathing {
+  animation: clockIdleBreathing 3.6s ease-in-out infinite;
+  will-change: box-shadow, border-color;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-popup-tip {
+  background-color: #FFFFFF !important;
+}
+
+/* Print Stylesheet for A4 */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  @page {
+    size: A4;
+    margin: 1.5cm;
+  }
+}

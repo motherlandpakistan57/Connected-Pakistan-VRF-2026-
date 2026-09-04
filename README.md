@@ -1,11 +1,260 @@
-<div align="center">
+# 🇵🇰 CONNECTED PAKISTAN (VRF 2026)
+> **National Vendor Regulation Framework (VRF 2026) • Closed-Loop Civic Decision Support Platform**  
+> *A Sovereign Civic Operating System for Price Integrity, Vendor Dignity & Urban Governance*  
+> **Designed by Dreamer's Lab vision of Fakhar Mushtaq • Team Stronger Together**  
+> *Urdu-First & English Bilingual Ecosystem • Built for the 240 Million Citizens and 2.5 Million Street Vendors of Pakistan*
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+---
 
-  <h1>Built with AI Studio</h2>
+## 📌 Project Summary
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+**Connected Pakistan (VRF 2026)** is a multi-stakeholder digital governance platform that connects Citizens, Vendors, Inspectors, and Government through role-based workflows, digital vendor identification, QR-based licensing concepts, geospatial intelligence, and responsible AI-assisted decision support.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **Live Production URL:** [https://ais-pre-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app](https://ais-pre-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app)
+- **Development App URL:** [https://ais-dev-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app](https://ais-dev-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app)
+- **Instant Demo Access:** Built-in Master Role Switcher (top bar) enabling instant switching between **Citizen**, **Street Vendor (ریڑھی بان)**, **PERA Field Inspector**, and **District Magistrate / Government Official** with pre-seeded real-world Pakistani bazaar datasets.
 
-</div>
+---
+
+## 1. Problem Statement & The Real-World Challenge
+
+### The Daily Reality of 240+ Million Citizens
+In every city from Karachi to Rawalpindi, Peshawar to Quetta, millions of Pakistani households face commodity price volatility:
+- **Price Disparity at the Cart:** A citizen purchasing essential staples is quoted arbitrary prices with no easy way to cross-reference the official daily Deputy Commissioner (DC) rate list.
+- **Asymmetric Information:** Daily DC rate lists are traditionally published as low-resolution photos on noticeboards, inaccessible to the average consumer.
+- **Complaint Black Holes:** Traditional helplines lack transparent case tracking codes, status visibility, and automated magistrate oversight.
+
+### The Plight of 2.5+ Million Street Vendors (ریڑھی بان)
+Pakistan’s informal micro-retail economy powers daily food distribution, yet street hawkers operate in persistent precarity:
+- **Arbitrary Evictions & Confiscations:** Informal hawkers face sudden eviction without formal spatial zoning or clear vending boundaries.
+- **The Wholesale Mandi Price Spike Trap:** When wholesale tomato prices spike at Sabzi Mandi at 4:00 AM due to logistics or shortages, vendors must buy at higher rates. Selling at cost leads to punitive fines with zero channel to present their wholesale mandi receipt (*ہول سیل پرچی*).
+- **Financial Invisibility:** Despite handling daily cash transactions, street vendors lack digital identity, credit ratings, and access to fair micro-credit.
+
+### The Enforcement Paralysis of Field Magistrates & PERA Inspectors
+- **Paper-Based Inefficiencies:** Hundreds of bazaars across 30+ districts lack digital telemetry, live dispatch tracking, and spatial slot records.
+- **Subjective Discretion:** Lack of a standardized ±3% fair tolerance buffer makes distinguishing perishable variance from intentional overcharging difficult.
+
+---
+
+## 2. Proposed Solution: The Closed-Loop VRF 2026 Engine
+
+Connected Pakistan establishes a closed-loop civic governance cycle:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        CONNECTED PAKISTAN VRF 2026 LIFECYCLE                           │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+
+ 1. GOVERNMENT AUTHORIZES       2. VENDOR OPERATES            3. CITIZEN ENGAGES
+ ┌────────────────────────┐    ┌────────────────────────┐    ┌────────────────────────┐
+ │ • 30-District Zoning   │───▶│ • Digital QR Stall ID  │───▶│ • Live DC Rates Lookup │
+ │ • Official 6x4ft Slots │    │ • 35m Geofence Radar   │    │ • Receipt & Photo Snap │
+ │ • License Cert & Fee   │    │ • Zero-Waste Rewards   │    │ • Track Code Generated │
+ └────────────────────────┘    └────────────────────────┘    └───────────┬────────────┘
+                                                                         │
+ 6. GOVERNMENT IMPROVES         5. SYSTEM LEARNS              4. INSPECTOR VERIFIES
+ ┌────────────────────────┐    ┌────────────────────────┐    ┌────────────────────────┐
+ │ • Rate Policy Tuning   │◀───│ • ±3% Variance Analysis│◀───│ • 9-Min Dispatch Queue │
+ │ • Micro-Credit Rating  │    │ • Section 14 Defense   │    │ • On-Site Geofence Fix │
+ │ • Infrastructure Fund  │    │ • AI Advisory Tiering  │    │ • Digital Notice/Fine  │
+ └────────────────────────┘    └────────────────────────┘    └────────────────────────┘
+```
+
+---
+
+## 3. The 4 User Roles & Core Workflows
+
+### 🟢 1. Citizen Portal (`CitizenView`)
+- **Daily 12 Essential DC Commodities:** Daily rates for Atta, Sugar, Ghee, Dal Chana, Tomatoes, Onions, Milk, Poultry, Beef, Rice, and Eggs with open-market comparative deltas.
+- **Evidence-Backed Complaint Submission:** Upload receipt photo, select GPS location, specify vendor, and toggle anonymous filing.
+- **Live Status Tracker:** Real-time progression (`Dispatched → On-Site → Vendor Responded → Resolved`).
+- **Green-Shield Vendor Directory:** Discover certified vendors with calibrated scales and high hygiene trust scores.
+
+### 🟡 2. Street Vendor Dignity Hub (`VendorView`)
+- **Digital QR Stall Credentials:** Printable high-resolution QR credential containing slot number, CNIC, market zone, and green verification tier.
+- **Right of Reply (Section 14) Dashboard:** Review citizen inquiries, select quick presets, or upload wholesale mandi receipts.
+- **8-Hour Shift Timer & Slot Rotation:** Transparent slot allocations preventing turf monopolies.
+- **Zero-Waste Rewards:** Daily points ledger to redeem subsidized scale kits and clean stall equipment.
+
+### 🔵 3. Field Inspector Radar (`InspectorView`)
+- **Priority Complaint Dispatch:** Auto-prioritized queue with countdown timers (9-minute target response).
+- **±3% Statutory Tolerance Scanner:** Instant calculations determining whether a price deviation falls within legal perishable buffers.
+- **Field Action Suite:** Issue digital coaching advisories, formal warnings, or QR-stamped digital challans.
+- **GPS Patrol & Calibrated Scale Checker:** Telemetry validation preventing unlawful boundary drift.
+
+### 🏛️ 4. District Command & Governance (`GovernmentView`)
+- **30-Zone National Compliance Heatmap:** Live multi-city coverage (Rawalpindi, Lahore, Karachi, Islamabad, Peshawar, Quetta, Faisalabad, Multan, Gwadar, Gilgit).
+- **Vendor Allotment Management:** Interactive mapping and allocation of registered urban vending slots.
+- **Rapid Squad Telemetry:** Real-time inspector unit tracking and response-time analytics.
+- **Audit & Open Data Sync:** Instant CSV export/import for rate lists, cases, and vendor registries.
+
+---
+
+## 4. Technology Stack & Technical Architecture
+
+| Layer | Technology | Description |
+|---|---|---|
+| **Frontend Framework** | **React 19 + TypeScript + Vite** | Single Page Application with optimized bundle splitting |
+| **Styling & Design System** | **Tailwind CSS + Sovereign Pakistan Tokens** | Pakistan Emerald (`#01411C`), Gold (`#E3A82B`), Sand (`#F6F2E7`) |
+| **Typography** | **Noto Nastaliq Urdu + Sora + Inter** | Seamless bilingual typographic hierarchy |
+| **Mapping & GIS** | **Leaflet + Custom Marker Clustering** | 30-district geospatial interactive map & 35m micro-geofencing |
+| **Speech & Audio** | **Web Speech API (`speechSynthesis`)** | Native bilingual voice announcements in Urdu & English |
+| **Charts & Metrics** | **Recharts + D3 Scales** | Live commodity variance charts and zone compliance metrics |
+| **QR Code Engine** | **qrcode.js** | Instant client-side QR generation and verification |
+| **Local Persistence** | **Resilient LocalStorage + IndexedDB Sync** | Zero-latency offline-first state synchronization |
+
+---
+
+## 5. Responsible AI Architecture & Ultra-Intelligent Civic Guide
+
+> **Principle: AI ASSISTS. RULES PROVIDE CONSISTENCY. HUMANS REMAIN ACCOUNTABLE.**
+
+- **Ultra-Intelligent Civic Knowledge & Calculation Engine:** Answers all inquiries regarding official DC price ceilings, multi-commodity grocery bill calculations (e.g. `5kg flour + 2kg sugar`), 30-district geospatial coverage, VRF Act 2026 Section 14-2 anti-eviction protections, and 100% encrypted anonymous reporting procedures.
+- **Dynamic Auto-Zoom & Manual Scaling:** Supports 5 zoom levels (80% to 145%) with automated viewport scaling for detailed itemized receipts and structured data tables.
+- **Smart Auto-Minimize & Auto-Open State Persistence:** Intelligently auto-minimizes into an animated floating badge when users explore or interact with background pages, and smoothly re-expands with complete conversational context upon return.
+- **Variance Analysis:** The AI engine computes price deviations against official DC rate schedules and statutory ±3% tolerance buffers.
+- **Severity Scoring:** Automatically categorizes alerts into Informational, Minor Advisory, Moderate Review, or Critical Violation.
+- **Right of Reply Integration:** Pre-fills Section 14 defense forms with Mandi wholesale explanations.
+- **Human Authority:** All regulatory actions, fine issuances, and slot approvals are exclusively executed by human magistrates and certified municipal inspectors.
+
+---
+
+## 6. Distinction of Project Status
+
+To ensure transparency and integrity for judges, developers, and the public:
+
+### ✅ What is Currently Built & Functional (In This Repository)
+1. Complete 4-role authenticated switching and permission-gated dashboards.
+2. Real-time DC rate list manager for 12 staple commodities with comparative analytics.
+3. Citizen complaint filing pipeline with real-time tracking code generation.
+4. Constitutional Section 14 Vendor Right of Reply defense and mandi slip submission workflow.
+5. Inspector dispatch queue, ±3% statutory tolerance calculation tool, and digital challan issuance.
+6. 30-district Pakistan GIS national compliance heatmap and city micro-slot zoning maps.
+7. QR Code stall credential generation, CNIC badge rendering, and QR scanning simulator.
+8. Native Urdu & English Web Speech voice narration.
+9. Resilient offline LocalStorage & IndexedDB state persistence with full platform data editor.
+10. Open Data CSV import/export for rate schedules, cases, and vendor directories.
+
+### 🧪 What is Demo / Prototype Simulation
+- **Simulated Hardware Inputs:** Live camera barcode reading and live GPS coordinates can be triggered via simulated devices in the browser.
+- **Pre-Seeded Records:** Demo bazaars (Raja Bazaar, Anarkali, Empress Market, Karkhano, Liaquat Bazaar) are populated with realistic seed records for demonstration.
+
+### 🔮 What Requires Future Institutional Integration
+- **NADRA Biometric API Gateway:** Live identity validation against national citizen databases.
+- **Provincial Gazette API Endpoints:** Automated daily ingestion of sealed Deputy Commissioner price notifications.
+- **District Treasury / 1Link / Raast Payment Gateway:** Direct automated settlement of monthly stall licensing fees.
+- **Municipal Police / PERA Dispatch Radios:** Integration with field patrol vehicle dispatch systems.
+
+---
+
+## 7. Security Audit & Public Repository Verification
+
+| Security Vector | Status | Detail |
+|---|:---:|---|
+| **Zero Hardcoded Secrets** | ✅ Passed | No API keys, JWT secrets, private tokens, or passwords exist in source files. |
+| **Client Environment Standard** | ✅ Passed | Only safe public variables use the `VITE_*` namespace prefix. |
+| **Server-Side Key Isolation** | ✅ Passed | Sensitive keys (e.g., `GEMINI_API_KEY`) remain server-side isolated. |
+| **Git Exclusion (.gitignore)** | ✅ Passed | Excludes `node_modules/`, `.env`, `.env.*`, `dist/`, `.vercel/`, `*.log`. |
+| **Clean .env.example** | ✅ Passed | Provided with clean placeholder values only. |
+| **Production Build Cleanliness** | ✅ Passed | Tree-shaken bundle, zero console leaks in production, SPA fallback configured. |
+
+---
+
+## 8. Local Setup & Installation
+
+### Prerequisites
+- **Node.js** 18+ or 20+
+- **npm** 9+ or **yarn** / **pnpm**
+
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/your-username/connected-pakistan-vrf-2026.git
+cd connected-pakistan-vrf-2026
+```
+
+### Step 2: Configure Environment
+```bash
+cp .env.example .env
+```
+
+Review `.env.example`:
+```env
+# Server-side Gemini API key (optional for local LLM features)
+GEMINI_API_KEY=
+
+# Application URL
+APP_URL=http://localhost:3000
+
+# Port
+PORT=3000
+
+# Client-side map provider key (optional)
+VITE_GOOGLE_MAPS_API_KEY=
+```
+
+### Step 3: Install Dependencies
+```bash
+npm install
+```
+
+### Step 4: Run Development Server
+```bash
+npm run dev
+```
+Navigate to: **`http://localhost:3000`**
+
+### Step 5: Build for Production
+```bash
+# Type check and lint
+npm run lint
+
+# Compile production bundle
+npm run build
+
+# Preview build locally
+npm run preview
+```
+
+---
+
+## 9. Vercel Deployment Instructions
+
+1. Push this repository to **GitHub**.
+2. Log into [Vercel](https://vercel.com) and click **"Add New Project"**.
+3. Import your `connected-pakistan-vrf-2026` repository.
+4. Vercel automatically detects **Vite**:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+   - **Install Command:** `npm install`
+5. *(Optional)* Add any optional environment variables in Vercel Project Settings (`VITE_GOOGLE_MAPS_API_KEY`, etc.).
+6. Click **Deploy**. Vercel will deploy the application with full SPA routing handled by the included `vercel.json`.
+
+---
+
+## 10. 3-Minute Demonstration Guide for Evaluators
+
+1. **Step 1: Citizen Rate Check & Complaint**  
+   - Review live DC Rates for 12 staple commodities.  
+   - Click **"شکایت درج کریں (File Complaint)"** and submit a test report (e.g., Tomato charged at Rs. 150 vs DC Rs. 95).  
+   - Note the generated tracking code (`CP-26-XXXX`).
+
+2. **Step 2: Field Inspector Decision Support**  
+   - Switch role to **Field Inspector** via the Master Role Switcher.  
+   - In **"شکایات و فیصلہ سازی (Cases)"**, open the incoming complaint with AI severity analysis.  
+   - Open the **"±3% اسکینر (Tolerance Scanner)"** and issue an official notice.
+
+3. **Step 3: Vendor Right of Reply (Section 14)**  
+   - Switch role to **Street Vendor (ریڑھی بان)**.  
+   - Open **"حقِ صفائی و سماعت (Section 14 Hearing)"**, select the Mandi slip explanation preset, and submit defense.
+
+4. **Step 4: Government Resolution & 30-District Heatmap**  
+   - Switch role to **Government Official**.  
+   - Review the vendor's defense on the case and mark it **Resolved**.  
+   - Open the **30-Zone National Heatmap** and **City Slots GIS Map** to view live compliance updates.
+
+---
+
+## 11. Authorship & Bottom Line
+
+Designed by Dreamer's Lab vision of Fakhar Mushtaq  
+*Built with unwavering devotion by Team Stronger Together • Empowering the Citizen • Protecting the Street Vendor • Modernizing Pakistan 🇵🇰*

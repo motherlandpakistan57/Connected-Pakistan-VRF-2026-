@@ -1,0 +1,6 @@
+{
+  "name": "Connected Pakistan - VRF 2026",
+  "description": "Connected Pakistan VRF 2026 platform: Vendor Regulation Framework, citizen reporting, real-time DC rate monitoring, interactive geospatial maps, and AI civic guide. Vision of Fakhar Mushtaq designed by Team Stronger Together.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
