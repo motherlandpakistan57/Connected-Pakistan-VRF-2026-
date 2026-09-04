@@ -1,22 +1,36 @@
 # 🇵🇰 CONNECTED PAKISTAN (VRF 2026)
 > **National Vendor Regulation Framework (VRF 2026) • Closed-Loop Civic Decision Support Platform**  
 > *A Sovereign Civic Operating System for Price Integrity, Vendor Dignity & Urban Governance*  
-> **Designed by Dreamer's Lab vision of Fakhar Mushtaq • Team Stronger Together**  
+> **Vision of Fakhar Mushtaq Designed by Team Stronger Together**  
 > *Urdu-First & English Bilingual Ecosystem • Built for the 240 Million Citizens and 2.5 Million Street Vendors of Pakistan*
-
 ---
+<img width="1911" height="1002" alt="image" src="https://github.com/user-attachments/assets/6f13218c-cb97-415d-8d32-c43d209fa829" />
 
 ## 📌 Project Summary
 
 **Connected Pakistan (VRF 2026)** is a multi-stakeholder digital governance platform that connects Citizens, Vendors, Inspectors, and Government through role-based workflows, digital vendor identification, QR-based licensing concepts, geospatial intelligence, and responsible AI-assisted decision support.
 
-- **Live Production URL:** [https://ais-pre-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app](https://ais-pre-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app)
-- **Development App URL:** [https://ais-dev-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app](https://ais-dev-a7q2xwm7l6nvbdqjcmfv4j-731097055909.asia-east1.run.app)
+
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2a41f6d8-3d6b-4a60-b10d-b04364b82b0b" />
+
+
+
+- **Live Production URL:** [(https://connected-pakistan-vrf-2026-1000700273346.us-west1.run.app)]
+- **Live Vercel URL:** [()]
+
+- 
 - **Instant Demo Access:** Built-in Master Role Switcher (top bar) enabling instant switching between **Citizen**, **Street Vendor (ریڑھی بان)**, **PERA Field Inspector**, and **District Magistrate / Government Official** with pre-seeded real-world Pakistani bazaar datasets.
+
+<img width="1543" height="811" alt="image" src="https://github.com/user-attachments/assets/f2f7b48a-6971-4a80-bc6c-25364d4ecf89" />
 
 ---
 
 ## 1. Problem Statement & The Real-World Challenge
+
+<img width="1881" height="1032" alt="image" src="https://github.com/user-attachments/assets/e9061072-b888-42fb-bc3b-cb9e01c259b4" />
+
+<img width="1053" height="572" alt="image" src="https://github.com/user-attachments/assets/f9c2fe6a-a475-49b8-ac6f-c8d1987f8c68" />
 
 ### The Daily Reality of 240+ Million Citizens
 In every city from Karachi to Rawalpindi, Peshawar to Quetta, millions of Pakistani households face commodity price volatility:
@@ -64,25 +78,41 @@ Connected Pakistan establishes a closed-loop civic governance cycle:
 
 ## 3. The 4 User Roles & Core Workflows
 
-### 🟢 1. Citizen Portal (`CitizenView`)
+<img width="1048" height="782" alt="image" src="https://github.com/user-attachments/assets/05bb6fd9-8691-4cb8-b7d8-eb7e6e64df22" />
+<img width="1260" height="955" alt="image" src="https://github.com/user-attachments/assets/70f8b7a1-cda6-4e17-b19c-6ad2909287f7" />
+
+
+###  1. Citizen Portal (`CitizenView`)
+
+<img width="1884" height="999" alt="image" src="https://github.com/user-attachments/assets/7f40d019-6683-4ddb-b88d-cfc120dedd98" />
+
 - **Daily 12 Essential DC Commodities:** Daily rates for Atta, Sugar, Ghee, Dal Chana, Tomatoes, Onions, Milk, Poultry, Beef, Rice, and Eggs with open-market comparative deltas.
 - **Evidence-Backed Complaint Submission:** Upload receipt photo, select GPS location, specify vendor, and toggle anonymous filing.
 - **Live Status Tracker:** Real-time progression (`Dispatched → On-Site → Vendor Responded → Resolved`).
 - **Green-Shield Vendor Directory:** Discover certified vendors with calibrated scales and high hygiene trust scores.
 
-### 🟡 2. Street Vendor Dignity Hub (`VendorView`)
+###  2. Street Vendor Dignity Hub (`VendorView`)
+
+<img width="1890" height="1011" alt="image" src="https://github.com/user-attachments/assets/ff056f78-34b9-4910-aa70-0dc3ae73d032" />
+
 - **Digital QR Stall Credentials:** Printable high-resolution QR credential containing slot number, CNIC, market zone, and green verification tier.
 - **Right of Reply (Section 14) Dashboard:** Review citizen inquiries, select quick presets, or upload wholesale mandi receipts.
 - **8-Hour Shift Timer & Slot Rotation:** Transparent slot allocations preventing turf monopolies.
 - **Zero-Waste Rewards:** Daily points ledger to redeem subsidized scale kits and clean stall equipment.
 
-### 🔵 3. Field Inspector Radar (`InspectorView`)
+###  3. Field Inspector Radar (`InspectorView`)
+
+<img width="1907" height="1005" alt="image" src="https://github.com/user-attachments/assets/89229e16-94d9-4f71-995d-143358d8beb1" />
+
 - **Priority Complaint Dispatch:** Auto-prioritized queue with countdown timers (9-minute target response).
 - **±3% Statutory Tolerance Scanner:** Instant calculations determining whether a price deviation falls within legal perishable buffers.
 - **Field Action Suite:** Issue digital coaching advisories, formal warnings, or QR-stamped digital challans.
 - **GPS Patrol & Calibrated Scale Checker:** Telemetry validation preventing unlawful boundary drift.
 
-### 🏛️ 4. District Command & Governance (`GovernmentView`)
+###  4. District Command & Governance (`GovernmentView`)
+
+<img width="1895" height="1004" alt="image" src="https://github.com/user-attachments/assets/1cacc42a-9253-4aa0-9f84-1495cf34fe77" />
+
 - **30-Zone National Compliance Heatmap:** Live multi-city coverage (Rawalpindi, Lahore, Karachi, Islamabad, Peshawar, Quetta, Faisalabad, Multan, Gwadar, Gilgit).
 - **Vendor Allotment Management:** Interactive mapping and allocation of registered urban vending slots.
 - **Rapid Squad Telemetry:** Real-time inspector unit tracking and response-time analytics.
@@ -108,6 +138,9 @@ Connected Pakistan establishes a closed-loop civic governance cycle:
 ## 5. Responsible AI Architecture & Ultra-Intelligent Civic Guide
 
 > **Principle: AI ASSISTS. RULES PROVIDE CONSISTENCY. HUMANS REMAIN ACCOUNTABLE.**
+
+<img width="1124" height="596" alt="image" src="https://github.com/user-attachments/assets/5cbedd67-1f5e-4634-b258-1b4196b4d0f2" />
+
 
 - **Ultra-Intelligent Civic Knowledge & Calculation Engine:** Answers all inquiries regarding official DC price ceilings, multi-commodity grocery bill calculations (e.g. `5kg flour + 2kg sugar`), 30-district geospatial coverage, VRF Act 2026 Section 14-2 anti-eviction protections, and 100% encrypted anonymous reporting procedures.
 - **Dynamic Auto-Zoom & Manual Scaling:** Supports 5 zoom levels (80% to 145%) with automated viewport scaling for detailed itemized receipts and structured data tables.
@@ -135,11 +168,11 @@ To ensure transparency and integrity for judges, developers, and the public:
 9. Resilient offline LocalStorage & IndexedDB state persistence with full platform data editor.
 10. Open Data CSV import/export for rate schedules, cases, and vendor directories.
 
-### 🧪 What is Demo / Prototype Simulation
+###  What is Demo / Prototype Simulation
 - **Simulated Hardware Inputs:** Live camera barcode reading and live GPS coordinates can be triggered via simulated devices in the browser.
 - **Pre-Seeded Records:** Demo bazaars (Raja Bazaar, Anarkali, Empress Market, Karkhano, Liaquat Bazaar) are populated with realistic seed records for demonstration.
 
-### 🔮 What Requires Future Institutional Integration
+###  What Requires Future Institutional Integration
 - **NADRA Biometric API Gateway:** Live identity validation against national citizen databases.
 - **Provincial Gazette API Endpoints:** Automated daily ingestion of sealed Deputy Commissioner price notifications.
 - **District Treasury / 1Link / Raast Payment Gateway:** Direct automated settlement of monthly stall licensing fees.
@@ -214,24 +247,11 @@ npm run build
 # Preview build locally
 npm run preview
 ```
+## 09. 3-Minute Demonstration Guide for Evaluators
 
----
 
-## 9. Vercel Deployment Instructions
+<img width="1074" height="591" alt="image" src="https://github.com/user-attachments/assets/0471f3d9-7403-4a62-b608-5ba255c0379f" />
 
-1. Push this repository to **GitHub**.
-2. Log into [Vercel](https://vercel.com) and click **"Add New Project"**.
-3. Import your `connected-pakistan-vrf-2026` repository.
-4. Vercel automatically detects **Vite**:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-5. *(Optional)* Add any optional environment variables in Vercel Project Settings (`VITE_GOOGLE_MAPS_API_KEY`, etc.).
-6. Click **Deploy**. Vercel will deploy the application with full SPA routing handled by the included `vercel.json`.
-
----
-
-## 10. 3-Minute Demonstration Guide for Evaluators
 
 1. **Step 1: Citizen Rate Check & Complaint**  
    - Review live DC Rates for 12 staple commodities.  
@@ -254,7 +274,17 @@ npm run preview
 
 ---
 
-## 11. Authorship & Bottom Line
+<img width="1872" height="1021" alt="image" src="https://github.com/user-attachments/assets/cc05e2a8-c892-4f12-b9a9-d5e643f5eb46" />
+<img width="1059" height="596" alt="image" src="https://github.com/user-attachments/assets/0d3ceb25-8ed2-43c9-a41b-389e7e11edd9" />
+<img width="1143" height="644" alt="image" src="https://github.com/user-attachments/assets/e2d90c29-7010-4e93-8d17-db0dc90fc3cd" />
+<img width="1060" height="579" alt="image" src="https://github.com/user-attachments/assets/858628b2-0e13-4917-8feb-53dc0cc53e16" />
 
-Designed by Dreamer's Lab vision of Fakhar Mushtaq  
-*Built with unwavering devotion by Team Stronger Together • Empowering the Citizen • Protecting the Street Vendor • Modernizing Pakistan 🇵🇰*
+
+
+## 10. Authorship & Developer Team
+
+<img width="1137" height="560" alt="image" src="https://github.com/user-attachments/assets/6d0d6019-656d-4cf9-8730-3772f13cafdd" />
+
+Vision of Fakhar Mushtaq  
+*Built with unwavering devotion by Team Stronger Together • We are Empowering the Citizen • Protecting the Street Vendor • Modernizing Pakistan 🇵🇰*
+*Because We are a future of Pakistan, You are a future of Pakistan and Together we all, are a future of Pakistan
