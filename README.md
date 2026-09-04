@@ -17,7 +17,6 @@
 
 
 - **Live Production URL:** [(https://connected-pakistan-vrf-2026-1000700273346.us-west1.run.app)]
-- **Live Vercel URL:** [()]
 
 - 
 - **Instant Demo Access:** Built-in Master Role Switcher (top bar) enabling instant switching between **Citizen**, **Street Vendor (ریڑھی بان)**, **PERA Field Inspector**, and **District Magistrate / Government Official** with pre-seeded real-world Pakistani bazaar datasets.
